@@ -1,10 +1,10 @@
 #include "sudokugame.h"
 
 struct sud{
-	int **board;
-	int size;
-	int empty;
-	int full;
+	int **board;//9 x 9 int board that contains the game board
+	int size;   //for future use 
+	int empty;  //if the board is empty is 1 else is 0
+	int full;   //if the board is full is 1 else is 0
 };
 
 sudoku initialize(){
@@ -24,12 +24,11 @@ sudoku initialize(){
 	newgame->full=0;
 	newgame->empty=1;
 	
-	
 	return newgame;
 }
 
 int play(int i,int j,int x,sudoku game){
-	if(game==NULL) return ;
+	if(game==NULL) return 5;
 	if(i<0 || i>=game->size) return 1;
 	if(j<0 || j>=game->size) return 2;
 	if(x<=0 || x>game->size) return 3;
@@ -39,7 +38,6 @@ int play(int i,int j,int x,sudoku game){
 	}else{
 		return 4;
 	}
-	
 	return 0;
 }
 
