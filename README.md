@@ -15,6 +15,7 @@ How it works:
     until the board is full.
 
   Behind the codes:
+  
     I use a board that has the possibles number for each box and then by the
     rules it delete what can't be used. Then starts "thinking" if a number can't 
     be entered somewhere elese in the box/line/column. If it stucks after some 
