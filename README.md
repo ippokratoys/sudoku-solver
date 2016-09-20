@@ -16,7 +16,8 @@ How it works:
 
   Behind the codes:
     
+
 Small story:
 
-  I started creating this app in my first summer after i joined the university
-  just to see if i can do somthing that is not an excercise for university.
+    I started creating this app in my first summer after i joined the university
+    just to see if i can do somthing that is not an excercise for university.
